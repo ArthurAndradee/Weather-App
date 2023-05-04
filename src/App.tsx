@@ -1,7 +1,13 @@
+import Header from "./Header";
+import Info from "./Info";
+import Input from "./Input";
+
 function App() {
   return (
     <div>
-      aa
+      <Header />
+      <Input />
+      <Info />
     </div>
   );
 }
