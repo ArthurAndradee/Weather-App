@@ -1,13 +1,11 @@
-import Header from "./Header";
-import Info from "./Info";
-import Input from "./Input";
+import Layout from "./Layout";
+import Globalstyles from "./styles/Globalstyles";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Input />
-      <Info />
+      <Layout />
+      <Globalstyles />
     </div>
   );
 }

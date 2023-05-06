@@ -4,7 +4,9 @@ import { Title } from './styles';
 
 const Header: React.FC = () => {
   return (
-    <Title>Weather App</Title>
+    <Title>
+      Weather App
+    </Title>
   )
 }
 

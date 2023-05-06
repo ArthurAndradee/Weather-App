@@ -1,10 +1,18 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Search, Button } from './styles';
 
 const Input: React.FC = () => {
   return (
-    <div></div>
+    <Container>
+      <Search
+      type='text'
+      placeholder=' Enter city/town...'
+      />
+      <Button>
+        Search
+      </Button>
+    </Container>
   );
 }
 
