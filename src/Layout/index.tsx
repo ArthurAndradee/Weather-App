@@ -1,17 +1,21 @@
 import React from 'react';
 
-import { Background } from './styles';
-import Input from '../Input';
-import Info from '../Info';
+import { Input, Button} from './styles';
 import Header from '../Header';
 
 const Layout: React.FC = () => {
   return (
-    <Background>
+    <div>
         <Header />
-        <Input />
-        <Info />
-    </Background>
+        <Input/>
+        <Button>Search</Button>
+        <div>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+    </div>
   );
 }
 
