@@ -6,8 +6,6 @@ export const Input = styled.input`
 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
-    border: 1px solid red;
 
     margin-left: 595px;
 
@@ -23,6 +21,4 @@ export const Button = styled.button`
     border-bottom-right-radius: 10px;
 
     cursor: pointer;
-
-    border: 1px solid red;
 `;
